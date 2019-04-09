@@ -1,10 +1,15 @@
-Installation
-Windows
+---
+title:  "Git in a Nutshell"
+categories: example
+---
+# Installation
+## Windows
 
 Download and install Git for Windows. Once installed, you’ll be able to use Git from the command prompt or PowerShell.
 
 Git for Windows does not automatically update. Update it by downloading the newer version of it.
-macOS
+
+## macOS
 
 Install Homebrew and run the following to install an up to date version of Git on your Mac:
 
@@ -14,13 +19,13 @@ To update your Git install, use Homebrew’s upgrade option:
 
 > brew upgrade git
 
-Linux
+## Linux
 
 Use your Linux package management system to install Git. on Ubuntu:
 
 > sudo apt-get install git
 
-Configure Git
+## Configure Git
 
 Run the following commands from the command prompt after installing Git to configure this information:
 
@@ -28,7 +33,7 @@ Run the following commands from the command prompt after installing Git to confi
 
 > git config --global user.email "user email"
 
-Git Commands
+## Git Commands
 
 Use the git init command to create a new repo from an existing folder on your computer. From the command line, navigate to the root folder containing your code and run
 
