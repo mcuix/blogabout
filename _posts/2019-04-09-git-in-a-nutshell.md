@@ -30,38 +30,39 @@ sudo apt-get install git
 
 Run the following commands from the command prompt after installing Git to configure this information:
 
-> git config --global user.name "user name"
+```
+git config --global user.name "user name"
 
-> git config --global user.email "user email"
-
+git config --global user.email "user email"
+```
 ## Git Commands
 
 Use the git init command to create a new repo from an existing folder on your computer. From the command line, navigate to the root folder containing your code and run
 
-> git init
+```git init```
 
 with git add . move changes from the working directory to the staging area.
 
-> git add .
+```git add .```
 
-git commitTakes the staged files and commits it to the project history. Together with git add, this saves your changes in the main repo.
+git commit Takes the staged files and commits it to the project history. Together with git add, this saves your changes in the main repo.
 
-> git commit -m "commit message"
+```git commit -m "commit message"```
 
 Use the git clone command to copy the contents of an existing repo to a folder on your computer. From the command line, navigate to the folder you want to contain the cloned repo, then run:
 
-> git clone (URL of the repo)
+```git clone (URL of the repo)```
 
 create branches using the git branch command:
 
-> git branch <branchname>
+```git branch <branchname>```
 
 Use the git push to save your changes on the server.
 
-> git push origin <branchname>
+```git push origin <branchname>```
 
 To keep the local repository in sync with the remote repository
 
-> git pull origin master
+```git pull origin master```
 
 The above are just a handfull of commands that can be used.
