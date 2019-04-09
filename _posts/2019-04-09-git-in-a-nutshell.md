@@ -63,6 +63,4 @@ To keep the local repository in sync with the remote repository
 
 > git pull origin master
 
-There are a lot more commands to learn but these are enough to get you started. You can pick up the rest of the commands as you explore and use git and GitHub more.
-
-As a small task, go to github explore, find a project that interests you, clone it and run it on your computer. It can be anything, a big project like Vehicle detection or even a small one like a web crawler. Furthermore, try understanding the code.
+The above are just a handfull of commands that can be used.
