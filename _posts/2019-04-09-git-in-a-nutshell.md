@@ -23,8 +23,9 @@ To update your Git install, use Homebrew’s upgrade option:
 
 Use your Linux package management system to install Git. on Ubuntu:
 
-> sudo apt-get install git
-
+```
+sudo apt-get install git
+```
 ## Configure Git
 
 Run the following commands from the command prompt after installing Git to configure this information:
